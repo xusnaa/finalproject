@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background: white;
+}
+     form{
+        padding: 3rem;
+        border: 3rem;
+        border: 2px solid #ccc;
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+    </style>
+
+</head>
+<body>
+    
+    <form action="/generate-password-form" method="POST">
+        <h1>Welcome to Password Generator</h1>
+        <label for="length">Password Length:</label>
+        <input type="number" name="length" value="" required><br><br>
+        
+        <label for="lower">Add Lowercase Letters:</label>
+        <input type="checkbox" name="lower" ><br><br>
+        
+        <label for="upper">Add Uppercase Letters:</label>
+        <input type="checkbox" name="upper"><br><br>
+        
+        <label for="numbers">Add Numbers:</label>
+        <input type="checkbox" name="numbers" ><br><br>
+        
+        <label for="symbols">Add Symbols:</label>
+        <input type="checkbox" name="symbols"><br><br>
+        
+        <button type="submit" value="Generate Password">
+            Generate password
+            </button>
+    </form>
+    
+    
+</body>
+</html>
