@@ -1,0 +1,6 @@
+projectKey=Password
+serverUrl=http://127.0.0.1:8080
+serverVersion=25.1.0.102122
+dashboardUrl=http://127.0.0.1:8080/dashboard?id=Password
+ceTaskId=0f88c041-f29b-4d03-941f-01eb21e4aa9c
+ceTaskUrl=http://127.0.0.1:8080/api/ce/task?id=0f88c041-f29b-4d03-941f-01eb21e4aa9c
